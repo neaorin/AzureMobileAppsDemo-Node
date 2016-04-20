@@ -9,7 +9,7 @@ table.insert(function (context) {
     logger.info('Running TodoItem.insert');
 
     // Define the template payload.
-    var payload = '{"messageParam": context.item.text}'; 
+    var payload = '{"data" : {"message": context.item.text}}'; 
 
     // Execute the insert.  The insert returns the results as a Promise,
     // Do the push as a post-execute action within the promise flow.
