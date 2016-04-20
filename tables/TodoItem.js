@@ -3,6 +3,7 @@ promises = require('azure-mobile-apps/src/utilities/promises'),
 logger = require('azure-mobile-apps/src/logger');
 
 var table = azureMobileApps.table();
+table.access = 'authenticated';
 
 table.insert(function (context) {
 
