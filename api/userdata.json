@@ -1,17 +1,17 @@
 {
   "get": {
-    "access": "anonymous"
+    "access": "authenticated"
   },
   "post": {
-    "access": "anonymous"
+    "access": "disabled"
   },
   "put": {
-    "access": "anonymous"
+    "access": "disabled"
   },
   "patch": {
-    "access": "anonymous"
+    "access": "disabled"
   },
   "delete": {
-    "access": "anonymous"
+    "access": "disabled"
   }
 }
