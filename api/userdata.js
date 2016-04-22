@@ -1,5 +1,5 @@
 var api = {
-    get: function (req, res, next) {
+    get: function (request, response, next) {
         var user = request.user;
         user.getIdentities({
         success: function(identities) {
