@@ -30,7 +30,5 @@ var api = {
 
     }
 };
-// All methods must be authenticated.
-api.access = 'authenticated';
 
 module.exports = api;
