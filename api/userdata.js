@@ -1,6 +1,6 @@
 var api = {
     get: function (request, response, next) {
-        var user = request.user;
+        var user = request.azureMobile.user;
         user.getIdentities({
         success: function(identities) {
             var accessToken = identities.microsoft.accessToken;
