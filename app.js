@@ -2,38 +2,41 @@
 // Copyright (c) 2015 Microsoft Corporation. All rights reserved.
 // ----------------------------------------------------------------------------
 
-// This is a base-level Azure Mobile App SDK.
-var express = require('express'),
-    azureMobileApps = require('azure-mobile-apps');
+/*
+** Sample Table Definition - this supports the Azure Mobile Apps
+** TodoItem product with authentication and offline sync
+*/
+var azureMobileApps = require('azure-mobile-apps');
 
-// Set up a standard Express app
-var app = express();
+// Create a new table definition
+var table = azureMobileApps.table();
 
-// If you are producing a combined Web + Mobile app, then you should handle
-// anything like logging, registering middleware, etc. here
+// Configure specific code when the client does a request
+// READ - only return records belonging to the authenticated user
+// table.read(function (context) {
+//   context.query.where({ userId: context.user.id });
+//   return context.execute();
+// });
 
-// Configuration of the Azure Mobile Apps can be done via an object, the
-// environment or an auxiliary file.  For more information, see
-// http://azure.github.io/azure-mobile-apps-node/global.html#configuration
-var mobileApp = azureMobileApps({
-    // Explicitly enable the Azure Mobile Apps home page
-    homePage: true,
-    // Explicitly enable swagger support. UI support is enabled by
-    // installing the swagger-ui npm module.
-    swagger: true
-});
+// CREATE - add or overwrite the userId based on the authenticated user
+// table.insert(function (context) {
+//   context.item.userId = context.user.id;
+//   return context.execute();
+// });
 
-// Import the files from the tables directory to configure the /tables endpoint
-mobileApp.tables.import('./tables');
+// UPDATE - for this scenario, we don't need to do anything - this is
+// the default version
+//table.update(function (context) {
+//  return context.execute();
+//});
 
-// Import the files from the api directory to configure the /api endpoint
-mobileApp.api.import('./api');
+// DELETE - for this scenario, we don't need to do anything - this is
+// the default version
+//table.delete(function (context) {
+//  return context.execute();
+//});
 
-// Initialize the database before listening for incoming requests
-// The tables.initialize() method does the initialization asynchronously
-// and returns a Promise.
-mobileApp.tables.initialize()
-    .then(function () {
-        app.use(mobileApp);    // Register the Azure Mobile Apps middleware
-        app.listen(process.env.PORT || 3000);   // Listen for requests
-    });
+// Finally, export the table to the Azure Mobile Apps SDK - it can be
+// read using the azureMobileApps.tables.import(path) method
+
+module.exports = table;
