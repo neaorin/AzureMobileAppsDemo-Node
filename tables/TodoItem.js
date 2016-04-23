@@ -1,42 +1,38 @@
-// ----------------------------------------------------------------------------
-// Copyright (c) 2015 Microsoft Corporation. All rights reserved.
-// ----------------------------------------------------------------------------
+var azureMobileApps = require('azure-mobile-apps'),
+promises = require('azure-mobile-apps/src/utilities/promises'),
+logger = require('azure-mobile-apps/src/logger');
 
-/*
-** Sample Table Definition - this supports the Azure Mobile Apps
-** TodoItem product with authentication and offline sync
-*/
-var azureMobileApps = require('azure-mobile-apps');
-
-// Create a new table definition
 var table = azureMobileApps.table();
+//table.access = 'authenticated';
 
-// Configure specific code when the client does a request
-// READ - only return records belonging to the authenticated user
-// table.read(function (context) {
-//   context.query.where({ userId: context.user.id });
-//   return context.execute();
-// });
+table.insert(function (context) {
 
-// CREATE - add or overwrite the userId based on the authenticated user
-// table.insert(function (context) {
-//   context.item.userId = context.user.id;
-//   return context.execute();
-// });
+    logger.info('Running TodoItem.insert');
 
-// UPDATE - for this scenario, we don't need to do anything - this is
-// the default version
-//table.update(function (context) {
-//  return context.execute();
-//});
+    // Define the template payload.
+    var payload = '{"messageParam": "New: ' + context.item.text + '"}'; 
 
-// DELETE - for this scenario, we don't need to do anything - this is
-// the default version
-//table.delete(function (context) {
-//  return context.execute();
-//});
+    // Execute the insert.  The insert returns the results as a Promise,
+    // Do the push as a post-execute action within the promise flow.
+    return context.execute()
+        .then(function (results) {
+            // Only do the push if configured
+            if (context.push) {
+                // Send a template notification.
+                context.push.send(null, payload, function (error) {
+                    if (error) {
+                        logger.error('Error while sending push notification: ', error);
+                    } else {
+                        logger.info('Push notification sent successfully!');
+                    }
+                });
+            }
+            // Don't forget to return the results from the context.execute()
+            return results;
+        })
+        .catch(function (error) {
+            logger.error('Error while running context.execute: ', error);
+        });
+});
 
-// Finally, export the table to the Azure Mobile Apps SDK - it can be
-// read using the azureMobileApps.tables.import(path) method
-
-module.exports = table;
+module.exports = table;  
