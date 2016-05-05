@@ -8,4 +8,6 @@ var api = {
     }
 };
 
+api.access = 'authenticated';
+
 module.exports = api;

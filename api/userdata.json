@@ -1,6 +1,6 @@
 {
   "get": {
-    "access": "authenticated"
+    "access": "anonymous"
   },
   "post": {
     "access": "disabled"
