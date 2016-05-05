@@ -1,0 +1,82 @@
+﻿{
+    "google": {
+        "access_token": "ya29.CjLWAsz1OFonsGYM7Mwe9FP1Ich5t5uu94Estxc-PGlNyCy774rTZL1B50aLr4LqO1krig",
+        "expires_on": "2016-05-02T08:50:26.762613Z",
+        "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ1NWY1NWFkYzA3ZmE4NzJmNGFiMGU2MGNmYzM1MWIwZDQyNWNmZTQifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhdF9oYXNoIjoiNnhVWVJjcmpqdHBmN1Z5SFg3Q05OdyIsImF1ZCI6IjU4MDEzMTg0ODgzLTBkdWJzbXNsYTAxMzU3MGVsbTV1a2Vnc2UwMTVqNG8wLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA0NTM0MjE2NjU4NDU3MTU0MTAxIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjU4MDEzMTg0ODgzLTBkdWJzbXNsYTAxMzU3MGVsbTV1a2Vnc2UwMTVqNG8wLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiZW1haWwiOiJuZWFvcmluQGdtYWlsLmNvbSIsImlhdCI6MTQ2MjE3NTQyNywiZXhwIjoxNDYyMTc5MDI3LCJuYW1lIjoiU29yaW4gUGVzdGUiLCJnaXZlbl9uYW1lIjoiU29yaW4iLCJmYW1pbHlfbmFtZSI6IlBlc3RlIiwibG9jYWxlIjoiZW4tR0IifQ.ZecdLb4Vud4n7h9SWvA4CyWIY8-reP0CTMJMSYTjHu8_P9xIyQiB7P1o2r7Z4Jof5Fd60hgXRIU5g0NLWSBbm3ze_qM6kzwSMA294yF2PzzdPT3L-hSxGHQenbKxZFR-9dS_B3shSkPfrgLGLvE9PEDTr_7bfw7CGaDPPNOJj9nXDzFjfexD2eQXTwq63s6TxLprDntPfAQnbkK_O28REuYe9jIPxRh7GYUnyZU1TbszHEgCitasZEOPH1lLPUI7sPU7-iGJ8rBQ3py9JPhGjiHk7Re4RRREwq5a9sM9GBR_-Ja588vAbFfZIPpQnzDeSQSCWQyTJlr3k5LSldM8Nw",
+        "provider_name": "google",
+        "user_claims": [
+            {
+                "typ": "iss",
+                "val": "https://accounts.google.com"
+            },
+            {
+                "typ": "at_hash",
+                "val": "6xUYRcrjjtpf7VyHX7CNNw"
+            },
+            {
+                "typ": "aud",
+                "val": "58013184883-0dubsmsla013570elm5ukegse015j4o0.apps.googleusercontent.com"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+                "val": "104534216658457154101"
+            },
+            {
+                "typ": "email_verified",
+                "val": "true"
+            },
+            {
+                "typ": "azp",
+                "val": "58013184883-0dubsmsla013570elm5ukegse015j4o0.apps.googleusercontent.com"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress",
+                "val": "neaorin@gmail.com"
+            },
+            {
+                "typ": "iat",
+                "val": "1462175427"
+            },
+            {
+                "typ": "exp",
+                "val": "1462179027"
+            },
+            {
+                "typ": "name",
+                "val": "Sorin Peste"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",
+                "val": "Sorin"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",
+                "val": "Peste"
+            },
+            {
+                "typ": "locale",
+                "val": "en-GB"
+            }
+        ],
+        "user_id": "neaorin@gmail.com",
+        "claims": {
+            "iss": "https://accounts.google.com",
+            "at_hash": "6xUYRcrjjtpf7VyHX7CNNw",
+            "aud": "58013184883-0dubsmsla013570elm5ukegse015j4o0.apps.googleusercontent.com",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "104534216658457154101",
+            "nameidentifier": "104534216658457154101",
+            "email_verified": "true",
+            "azp": "58013184883-0dubsmsla013570elm5ukegse015j4o0.apps.googleusercontent.com",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress": "neaorin@gmail.com",
+            "emailaddress": "neaorin@gmail.com",
+            "iat": "1462175427",
+            "exp": "1462179027",
+            "name": "Sorin Peste",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sorin",
+            "givenname": "Sorin",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Peste",
+            "surname": "Peste",
+            "locale": "en-GB"
+        }
+    }
+}

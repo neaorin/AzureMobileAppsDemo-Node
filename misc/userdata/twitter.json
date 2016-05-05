@@ -1,0 +1,55 @@
+﻿{
+    "twitter": {
+        "access_token": "766096718-PQUoAdPPCTbg9MfYaGAlI28Dt7Y3bQh6eq4qfnkJ",
+        "access_token_secret": "ObCeVQtkoslE2DdfYfwy2LoTwYB4yzrIJSnkigJVjp7nZ",
+        "provider_name": "twitter",
+        "user_claims": [
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+                "val": "766096718"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",
+                "val": "neaorin"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                "val": "Sorin"
+            },
+            {
+                "typ": "urn:twitter:description",
+                "val": ""
+            },
+            {
+                "typ": "urn:twitter:location",
+                "val": ""
+            },
+            {
+                "typ": "urn:twitter:lang",
+                "val": "en"
+            },
+            {
+                "typ": "urn:twitter:verified",
+                "val": "False"
+            },
+            {
+                "typ": "urn:twitter:profile_image_url_https",
+                "val": "https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png"
+            }
+        ],
+        "user_id": "neaorin",
+        "claims": {
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "766096718",
+            "nameidentifier": "766096718",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "neaorin",
+            "upn": "neaorin",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "Sorin",
+            "name": "Sorin",
+            "urn:twitter:description": "",
+            "urn:twitter:location": "",
+            "urn:twitter:lang": "en",
+            "urn:twitter:verified": "False",
+            "urn:twitter:profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_2_normal.png"
+        }
+    }
+}

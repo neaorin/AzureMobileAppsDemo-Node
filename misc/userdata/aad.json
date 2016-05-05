@@ -1,0 +1,100 @@
+﻿{
+    "aad": {
+        "id_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSIsImtpZCI6Ik1uQ19WWmNBVGZNNXBPWWlKSE1iYTlnb0VLWSJ9.eyJhdWQiOiJmMGMyYzVlYi1kMjMxLTQ1NzItOGMwYS03MTkzMjY2M2UzNzciLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wZmYxMDIyMS04NGI5LTQ3YzYtODkzOS02MTE2MjhkMDY4Y2QvIiwiaWF0IjoxNDYyMTc1MjM5LCJuYmYiOjE0NjIxNzUyMzksImV4cCI6MTQ2MjE3OTEzOSwiYW1yIjpbInB3ZCJdLCJmYW1pbHlfbmFtZSI6IlBlc3RlIiwiZ2l2ZW5fbmFtZSI6IlNvcmluIiwiaXBhZGRyIjoiODYuMTA0LjE4OS43MSIsIm5hbWUiOiJTb3JpbiBQZXN0ZSIsIm5vbmNlIjoiN2MxMjIzOTg3OThlNDc4Mzg3YjZiYzVlNTk1Y2YyN2NfMjAxNjA1MDIwNzU3MTgiLCJvaWQiOiJjYTIzNjBjOC1hN2ZiLTQzYTktYTczZC1jZmVlMmRlNTRhYzgiLCJzdWIiOiJMajd2QkFWQVpnSVY2QnNhSjV1U1p1Mnk1di1lYTFFSUlRc1Voa3RWNVBzIiwidGlkIjoiMGZmMTAyMjEtODRiOS00N2M2LTg5MzktNjExNjI4ZDA2OGNkIiwidW5pcXVlX25hbWUiOiJzb3JpbkBzb3JpbmRlbW8ub25taWNyb3NvZnQuY29tIiwidXBuIjoic29yaW5Ac29yaW5kZW1vLm9ubWljcm9zb2Z0LmNvbSIsInZlciI6IjEuMCJ9.QQUDbd0XYAXKgchH3t-gpvhP4uWvGv9PDpd16MPYLRb4UgbXVhTq4upSp_kiVy8XItRAZoShwR0vxfIoNNhwl61eDfJwF7ZVouyC0KTJPeHuBwZS-1FfyWwPKoJwSrReXgFp4r8R4aDGQCvqBaPXkQmftcSsooMbVJhGiJlQCHkb2wVLgAp0fbwaN-n2ukkAbz5SBiiXuKzWzDlt7mtht7HFAAL7f1X9ZgHMslJDTc-666NtCmr_liy27bCSk55gi_rSUC8_s_VRn7zR3DcR2-tmR_MeYOHKdNSafCrVjwpu_rIp-JnH5flMLS4DBhxs5LJk5lJqqdk3OG-g_zqTcw",
+        "provider_name": "aad",
+        "user_claims": [
+            {
+                "typ": "aud",
+                "val": "f0c2c5eb-d231-4572-8c0a-71932663e377"
+            },
+            {
+                "typ": "iss",
+                "val": "https://sts.windows.net/0ff10221-84b9-47c6-8939-611628d068cd/"
+            },
+            {
+                "typ": "iat",
+                "val": "1462175239"
+            },
+            {
+                "typ": "nbf",
+                "val": "1462175239"
+            },
+            {
+                "typ": "exp",
+                "val": "1462179139"
+            },
+            {
+                "typ": "http://schemas.microsoft.com/claims/authnmethodsreferences",
+                "val": "pwd"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",
+                "val": "Peste"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",
+                "val": "Sorin"
+            },
+            {
+                "typ": "ipaddr",
+                "val": "86.104.189.71"
+            },
+            {
+                "typ": "name",
+                "val": "Sorin Peste"
+            },
+            {
+                "typ": "nonce",
+                "val": "7c122398798e478387b6bc5e595cf27c_20160502075718"
+            },
+            {
+                "typ": "http://schemas.microsoft.com/identity/claims/objectidentifier",
+                "val": "ca2360c8-a7fb-43a9-a73d-cfee2de54ac8"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+                "val": "Lj7vBAVAZgIV6BsaJ5uSZu2y5v-ea1EIIQsUhktV5Ps"
+            },
+            {
+                "typ": "http://schemas.microsoft.com/identity/claims/tenantid",
+                "val": "0ff10221-84b9-47c6-8939-611628d068cd"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                "val": "sorin@sorindemo.onmicrosoft.com"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn",
+                "val": "sorin@sorindemo.onmicrosoft.com"
+            },
+            {
+                "typ": "ver",
+                "val": "1.0"
+            }
+        ],
+        "user_id": "sorin@sorindemo.onmicrosoft.com",
+        "claims": {
+            "aud": "f0c2c5eb-d231-4572-8c0a-71932663e377",
+            "iss": "https://sts.windows.net/0ff10221-84b9-47c6-8939-611628d068cd/",
+            "iat": "1462175239",
+            "nbf": "1462175239",
+            "exp": "1462179139",
+            "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Peste",
+            "surname": "Peste",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sorin",
+            "givenname": "Sorin",
+            "ipaddr": "86.104.189.71",
+            "name": "sorin@sorindemo.onmicrosoft.com",
+            "nonce": "7c122398798e478387b6bc5e595cf27c_20160502075718",
+            "http://schemas.microsoft.com/identity/claims/objectidentifier": "ca2360c8-a7fb-43a9-a73d-cfee2de54ac8",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "Lj7vBAVAZgIV6BsaJ5uSZu2y5v-ea1EIIQsUhktV5Ps",
+            "nameidentifier": "Lj7vBAVAZgIV6BsaJ5uSZu2y5v-ea1EIIQsUhktV5Ps",
+            "http://schemas.microsoft.com/identity/claims/tenantid": "0ff10221-84b9-47c6-8939-611628d068cd",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "sorin@sorindemo.onmicrosoft.com",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "sorin@sorindemo.onmicrosoft.com",
+            "upn": "sorin@sorindemo.onmicrosoft.com",
+            "ver": "1.0"
+        }
+    }
+}

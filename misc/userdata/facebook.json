@@ -1,0 +1,57 @@
+﻿{
+    "facebook": {
+        "access_token": "EAAYer2Pqlb4BAEHrR2U46DnwYy90mEQHVlYQLaEUQp3fh5tZBXmqArg7k9cnScSAb1DB0Xz4UjIO6jDZCGtsO57eEnQxCrbtRBYxnGQdfIwOLBDnFdkmUZBOoEAnGbwfMxMkjWduDK8eN73uhx5",
+        "expires_on": "2016-06-30T17:54:24.2670407Z",
+        "provider_name": "facebook",
+        "user_claims": [
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+                "val": "10208214247607276"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                "val": "Sorin Peşte"
+            },
+            {
+                "typ": "urn:facebook:link",
+                "val": "https://www.facebook.com/app_scoped_user_id/10208214247607276/"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",
+                "val": "Sorin"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",
+                "val": "Peşte"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender",
+                "val": "male"
+            },
+            {
+                "typ": "urn:facebook:locale",
+                "val": "en_GB"
+            },
+            {
+                "typ": "urn:facebook:timezone",
+                "val": "3"
+            }
+        ],
+        "user_id": "Sorin Peşte",
+        "claims": {
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "10208214247607276",
+            "nameidentifier": "10208214247607276",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "Sorin Peşte",
+            "name": "Sorin Peşte",
+            "urn:facebook:link": "https://www.facebook.com/app_scoped_user_id/10208214247607276/",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sorin",
+            "givenname": "Sorin",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Peşte",
+            "surname": "Peşte",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/gender": "male",
+            "gender": "male",
+            "urn:facebook:locale": "en_GB",
+            "urn:facebook:timezone": "3"
+        }
+    }
+}

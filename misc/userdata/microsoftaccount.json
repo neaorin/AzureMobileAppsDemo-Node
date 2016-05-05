@@ -1,0 +1,51 @@
+﻿{
+    "microsoftaccount": {
+        "access_token": "EwBwAq1DBAAUGCCXc8wU/zFu9QnLdZXy+YnElFkAAV6gvJl0wdWIUmC4Zkcnz82bnUDW75vroAgIvRjp6+Re4x1tVbJY6BZk2q8iNuiJAiRaC7l6/OgKNb7taLRpoQCnG70boZ5fNA8afTaKz3FQvio/wgP4GCdpM0x0pv1VeaUDN3gfkyA2Fg70jFj8oj37NmH+mPl5ZDoAAYamRmrj6dKdQ87I4V4I+UfOFnpxtDNp5lMKZJDX6rvDJmRt2B9GA5pilEiXIG7UVBj3VrjTzQCMoj9P8TxzPT+aZo4JIbann4TVIw9uJaqS81eoUiSRlQhIHIzE8By3WVdNFYzZRXuDnq6tsZzwHkWADPlelaCgr4vdYcrIeIba8ou3Da4DZgAACHIT8l1z8t6OQAGMhyTE0LqoOCufvj7+E5Zv2sDD+qlAOgZD70FrsP+c8L8Kt9RDMmUCc94wqLxekJkegFW6FW+koM72d2kvHAwC7SoxkmlnABG1jzmhOQ/Ts5ZZRu8IqzdVJOUBhJEBezBjYdXaWzxBEDYhd/odn9Kmli+3c476UMt9wkKo+Ak3gLXTVqYb+7D0Ohn3S5TfZ+RIlhZ0hbelNMIZXfPIwJt/M+8FLpjerC+Xeq5eVwuYT0yk60S7Zr4tKUMhZp974OvuUbbnLlx5Img58iuLOciczenrNtRUlEVDR4kvuKgJIno2c6Su+3oVT0o0T/9iRhnnbhRH/Lf7hTp5khWSzQX7nCkDfHgPqbZY3T07hTcGpB5k2sCPNvlbJqkCympofCAJDv4UcQbBHQOO4/QrNS65wq6bV793aloeWkaPnE8bVGgB",
+        "expires_on": "2016-05-02T08:51:07.6293231Z",
+        "provider_name": "microsoftaccount",
+        "user_claims": [
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier",
+                "val": "3195e23ebc044b60"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                "val": "Sorin Peste"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname",
+                "val": "Sorin"
+            },
+            {
+                "typ": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname",
+                "val": "Peste"
+            },
+            {
+                "typ": "urn:microsoftaccount:locale",
+                "val": "en_US"
+            },
+            {
+                "typ": "urn:microsoftaccount:id",
+                "val": "3195e23ebc044b60"
+            },
+            {
+                "typ": "urn:microsoftaccount:name",
+                "val": "Sorin Peste"
+            }
+        ],
+        "user_id": "Sorin Peste",
+        "claims": {
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "3195e23ebc044b60",
+            "nameidentifier": "3195e23ebc044b60",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "Sorin Peste",
+            "name": "Sorin Peste",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Sorin",
+            "givenname": "Sorin",
+            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Peste",
+            "surname": "Peste",
+            "urn:microsoftaccount:locale": "en_US",
+            "urn:microsoftaccount:id": "3195e23ebc044b60",
+            "urn:microsoftaccount:name": "Sorin Peste"
+        }
+    }
+}
