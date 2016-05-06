@@ -3,14 +3,38 @@ promises = require('azure-mobile-apps/src/utilities/promises'),
 logger = require('azure-mobile-apps/src/logger');
 
 var table = azureMobileApps.table();
-//table.access = 'authenticated';
+
+// // Define the columns within the table
+// table.columns = {
+//     "text": "string",
+//     "complete": "boolean"
+// };
+
+// // Turn off dynamic schema
+// table.dynamicSchema = false;
+
+// // Require authentication to access the table
+// table.access = 'authenticated';
+
+
+// table.read(function (context) {
+//     return context.execute();
+// });
+
+// table.update(function (context) {
+//     return context.execute();
+// });
+
+// table.delete(function (context) {
+//     return context.execute();
+// });
 
 table.insert(function (context) {
 
     logger.info('Running TodoItem.insert');
 
     // Define the template payload.
-    var payload = '{"messageParam": "New: ' + context.item.text + '"}'; 
+    var payload = '{"messageParam": "New iten: ' + context.item.text + '"}'; 
 
     // Execute the insert.  The insert returns the results as a Promise,
     // Do the push as a post-execute action within the promise flow.
